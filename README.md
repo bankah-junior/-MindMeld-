@@ -1,5 +1,5 @@
 # -MindMeld-
- "MindMeld" is a website that is all about Artificial Intelligence (AI).
+ "MindMeld" is a (React App) website that is all about Artificial Intelligence (AI).
  
 ![The Home Page of MindMeld](MindMeld-Home.PNG)
 
