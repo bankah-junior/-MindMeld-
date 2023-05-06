@@ -1,0 +1,105 @@
+.mindmeld__aboutPage-header {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../../assets/about/about-header.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.mindmeld__aboutPage-header-cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.mindmeld__aboutPage-container {
+    padding: 4rem 6rem;
+}
+
+.mindmeld__aboutPage-container .pmg-container {
+    width: 100%;
+    display: flex;
+    margin: 3rem 0;
+    font-family: var(--font-family);
+}
+
+.content {
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+.mindmeld__aboutPage-container .mindmeld__aboutPage-container-purpose,
+.mindmeld__aboutPage-container .mindmeld__aboutPage-container-goal {
+    flex-direction: row-reverse;
+}
+
+.mindmeld__aboutPage-container .mindmeld__aboutPage-container-goal {
+    align-items: center;
+}
+
+.mindmeld__aboutPage-container .mindmeld__aboutPage-container-goal p {
+    margin: 1rem 0;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-text {
+    width: 50%;
+    padding: 2rem 4rem;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-text h2 {
+    font-size: 3rem;
+    color: var(--color-text);
+    margin: 1rem 0;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-text p {
+    width: 90%;
+    line-height: 25px;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-text p b {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-image {
+    width: 50%;
+}
+
+.mindmeld__aboutPage-container .pmg-container .pmg-image img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .mindmeld__aboutPage-container {
+        padding: 4rem 2rem;
+    }
+
+    .mindmeld__aboutPage-container .pmg-container {
+        flex-direction: column;
+    }
+
+    .mindmeld__aboutPage-container .pmg-container .pmg-text,
+    .mindmeld__aboutPage-container .pmg-container .pmg-image {
+        width: 100%;
+    }
+
+    .mindmeld__aboutPage-container .pmg-container .pmg-text {
+        padding: 2rem 0;
+    }
+
+    .mindmeld__aboutPage-container .pmg-container .pmg-text h2 {
+        font-size: 2rem;
+        margin: .5rem 0;
+    }
+
+    .mindmeld__aboutPage-container .pmg-container .pmg-text p {
+        line-height: 22px;
+    }
+
+    .mindmeld__aboutPage-container .mindmeld__aboutPage-container-goal p {
+        margin: .5rem 0;
+    }
+
+}

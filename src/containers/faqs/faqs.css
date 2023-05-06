@@ -1,0 +1,73 @@
+.mindmeld__faqs-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.mindmeld__faqs-container-header h2 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.mindmeld__faqs-container-header p {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.faq {
+    padding: 10px 5% !important;
+}
+
+.accordion {
+    margin: 10px auto;
+}
+
+.mindmeld__faqs-container-footer {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../../assets/FAQs/FAQ03.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top: 10px solid var(--color-text);
+    border-bottom: 10px solid var(--color-text);
+    margin-top: 1rem;
+}
+
+.mindmeld__faqs-container-footer-cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+    line-height: 35px;
+}
+
+.mindmeld__faqs-container-footer-cover p a:first-child {
+    text-decoration: underline;
+    color: blue;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1050px) {
+    .mindmeld__faqs-container-footer-cover {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .mindmeld__faqs-container-footer-cover h2 {
+        font-size: 1.2rem;
+    }
+
+    .mindmeld__faqs-container-footer-cover p {
+        font-size: 14px;
+    }
+
+    .mindmeld__faqs-container-footer-cover p a:first-child {
+        letter-spacing: normal;
+    }
+}

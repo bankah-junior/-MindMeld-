@@ -1,0 +1,153 @@
+.mindmeld__contact-container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: var(--font-family);
+    display: flex;
+    background-image: url('../../assets/contact/contact-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 6rem;
+}
+
+.mindmeld__contact-container .mindmeld__contact-container-left {
+    width: 30%;
+    position: relative;
+}
+
+.mindmeld__contact-container-left .mindmeld__contact-container-left-main {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    left: 14rem;
+    top: 5rem;
+    padding: 2rem 3rem;
+    background-color: rgba(2, 20, 32, 1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.mindmeld__contact-container-left h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.mindmeld__contact-container-left p {
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.mindmeld__contact-container .mindmeld__contact-container-right {
+    width: 70%;
+    display: flex;
+    background-color: #fff;
+    color: #000;
+}
+
+.mindmeld__contact-container-right .mindmeld__contact-container-right-blank {
+    width: 30%;
+}
+
+.mindmeld__contact-container-right .mindmeld__contact-container-right-form {
+    width: 70%;
+    padding: 1.5rem 4rem 1.5rem 1rem;
+}
+
+.mindmeld__contact-container-right-form h2 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.mindmeld__contact-container-right-form p {
+    margin-bottom: 2rem;
+}
+
+.mindmeld__contact-container-right-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mindmeld__contact-container-right-form form input,
+.mindmeld__contact-container-right-form form textarea {
+    background-color: rgb(221, 221, 221);
+    margin-bottom: .4rem;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+.mindmeld__contact-container-right-form form button {
+    width: 6rem;
+    padding: .6rem .9rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    background-color: rgba(2, 20, 32, 1);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+    .mindmeld__contact-container {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .mindmeld__contact-container-left {
+        border-bottom: 10px solid rgba(40, 196, 211, 1);
+        margin-bottom: 2rem;
+    }
+    
+    .mindmeld__contact-container .mindmeld__contact-container-left {
+        width: 100%;
+        position: static;
+    }
+
+    .mindmeld__contact-container-left .mindmeld__contact-container-left-main {
+        position: static;
+        top: 0;
+        right: 0;
+        box-shadow: none;
+    }
+
+    .mindmeld__contact-container .mindmeld__contact-container-right {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .mindmeld__contact-container-right .mindmeld__contact-container-right-blank {
+        display: none;
+    }
+
+    .mindmeld__contact-container-right .mindmeld__contact-container-right-form {
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .mindmeld__contact-container {
+        padding: 4rem 2rem;
+    }
+
+    .mindmeld__contact-container-left {
+        border-bottom: 10px solid rgba(40, 196, 211, 1);
+    }
+
+    .mindmeld__contact-container-left .mindmeld__contact-container-left-main {
+        padding: 1.5rem;
+    }
+
+    .mindmeld__contact-container-left h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .mindmeld__contact-container-left p {
+        margin-bottom: .5rem;
+        margin-left: 0;
+        font-size: 14px;
+    }
+}

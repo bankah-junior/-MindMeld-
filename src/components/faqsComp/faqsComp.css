@@ -1,0 +1,80 @@
+.faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    font-family: var(--font-family);
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion li label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform .5s;
+}
+
+.accordion li input[type=radio] {
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s, padding .5s;
+}
+
+.accordion input[type=radio]:checked + label + .content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type=radio]:checked + label::after {
+    transform: rotate(135deg);;
+}
+
+@media only screen and (max-width: 600px) {
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 22px;
+    }
+}

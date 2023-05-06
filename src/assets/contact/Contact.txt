@@ -1,0 +1,10 @@
+Provides contact information for the websites's support team, including email, phone, and chat options.
+
+* Address
+* email
+* Tel
+* WhatsApp
+
+* Name
+* Email
+* Type message
