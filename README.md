@@ -1,5 +1,7 @@
 # -MindMeld-
  "MindMeld" is a website that is all about Artificial Intelligence (AI).
+ 
+![The Home Page of MindMeld](MindMeld-Home.PNG)
 
  Welcome to the repository for "MindMeld", your source for informative and engaging content on AI and technology. Our blog features a wide range of articles, from exploring the benefits of AI to examining the ethical implications of its use. Our goal is to provide a platform for thought-provoking discussions on the latest advancements in AI and its impact on society.
 
@@ -10,4 +12,3 @@
  Thank you for visiting our repository. We invite you to explore our blog and join the conversation on the future of AI and technology. 
 
  Check it out https://mindmeld.netlify.app/
-![The Home Page of MindMeld](MindMeld-Home.PNG)
